@@ -1,0 +1,71 @@
+ <?php
+ session_start(); 
+ ?>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+ 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="login.css">
+	<title>Login</title>
+
+</head>
+<body>
+	
+	 <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="index.html">Lifestyle Store</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        <li><a href="aboutus.html"><span class="glyphicon glyphicon-log-in"></span> About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+<!--FORM STARTS-->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+<form method="GET" action="../validation.php">
+  <div class="form-group">
+    <label  for="email">Email address</label>
+    <input type="email"  class="form-control" id="email_id" name="email" aria-describedby="emailHelp" placeholder="Enter email" required="">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required="">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1" required="">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary"><a>Submit</a></button>
+</form>
+</div>
+<!--form ends-->
+
+ 
+</body>
+</html>

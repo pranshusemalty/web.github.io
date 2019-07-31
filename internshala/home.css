@@ -1,0 +1,109 @@
+body
+{
+	width: 100%;
+}
+.box1
+{
+ 
+
+height: 80vh;
+	width: 100%;
+	background-image: url("images/8.jpg");
+	background-size: cover;
+	display: table;
+background-attachment: fixed;
+}
+.pos
+{
+	text-align: left;
+	padding-left: 6%;
+	font-family: 'Kaushan Script', cursive;
+	color: white;
+	font-size: 400%;
+	font-style: bold;
+	padding-top: 15%
+}
+.P1
+{
+ color: white;
+ padding-left: 15%;
+ font-family: 'Merienda',cursive;
+}
+ .size
+ {
+ 	width: 150%
+ }
+ #style
+ {
+ 	opacity: 70%;
+ 	font-family: 'Merienda';
+ 	text-align: center;
+ 	padding-top: 10%
+
+ }
+ .size1
+ {
+ 	width: 50%;
+ }
+ .img1
+ {
+ 	padding-left: 17%;
+ }
+ .sp1
+ {
+ 	font-family: 'Julius Sans One', sans-serif;
+ 	text-align: center;
+ 	padding-top: 10%;
+ 	font-size: 400%;
+ }
+ .s1
+ {
+ font-family: 'Julius Sans One', sans-serif;
+ 	text-shadow: 80%;
+ }
+ .s2
+ {
+ 	font-size: 400%;
+ 	font-family: 'Julius Sans One', sans-serif;
+ 	text-shadow: 80%;
+ }
+
+ .pad
+ {
+ 	padding-left: 16%;
+ }
+ .box2
+ {
+ 	
+ 
+
+height: 80vh;
+	width: 100%;
+	background-image: url("images/vibes.jpg");
+	background-size: cover;
+	display: table;
+background-attachment: fixed;
+ }
+ .al1
+ {
+ 	text-align: left;
+ 	padding-left: 8%;
+ 	padding-top: 20%;
+ 	font-family: 'Kaushan Script', cursive;
+ 	color: white;
+ 	font-size: 450%;
+}
+.box3
+{
+
+height: 80vh;
+	width: 100%;
+	background-image: url("images/time3.jpg");
+	background-size: cover;
+	display: table;
+background-attachment: fixed;
+}
+.al2
+{
+	 padding-left: 30%;
+}

@@ -1,0 +1,36 @@
+.a
+{
+	font-size: 300%;
+	text-align: center;
+}
+.one
+{
+	background-color: #fff5d9;
+	border-bottom: black 5px;
+}
+.wo
+{
+	border-width: 2% black;
+}
+.size
+{
+	font-size: 200%;
+	text-align: right;
+	font-family: 'Darker Grotesque', sans-serif;
+}
+.resize
+{
+	size: 700%;
+
+}
+.sst
+{
+	font-style: bold;
+}
+.size1
+{
+	font-family: 'Darker Grotesque', sans-serif;
+	font-weight: bold 1px;
+	font-size: 200%;
+	padding-left: 28%;
+}

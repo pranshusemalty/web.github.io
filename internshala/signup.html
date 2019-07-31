@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+ 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="login.css">
+	<title>Signup</title>
+</head>
+<body>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+
+	 <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="index.html">Lifestyle Store</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        <li><a href="aboutus.html"><span class="glyphicon glyphicon-log-in"></span> About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--nav bar ends-->
+        <div class="container">
+        <form method="get" action="../userreg.php">
+        	 
+  <div class="form-row" >
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input name="email" type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input name="password" type="password" class="form-control" id="inputPassword4" placeholder="Password" required="">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input name="city" type="text" class="form-control" id="inputCity" required="">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select name="state" id="inputState" class="form-control" required="">
+        <option selected></option>
+        <option>Andhra Pradesh	 </option>
+        <option>Arunachal Pradesh</option>
+        <option>Assam</option>
+        <option>Bihar</option>
+        <option>Chhattisgarh</option>
+        <option>Gujarat	</option>
+        <option>Haryana	 </option>
+        <option>Himachal Pradesh</option>
+        <option>Jammu and Kashmir</option>
+        <option>Jharkhand</option>
+        <option>Karnataka</option>
+        <option>Kerala	 </option>
+        <option>Madhya Pradesh	</option>
+        <option>Maharashtra</option>
+        <option>Manipur </option>
+        <option>Meghalaya</option>
+        <option>Mizoram	 </option>
+        <option>Nagaland</option>
+        <option>Odisha	 </option>
+        <option>Punjab	</option>
+        <option>Rajasthan</option>
+        <option>Sikkim</option>
+        <option>Tamil Nadu</option>
+        <option>Telangana</option>
+        <option>Tripura	 </option>
+        <option>Uttar Pradesh</option>
+        <option>Uttarakhand</option>
+        <option>West Bengal</option>
+         
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input name="zipcoad" type="text" class="form-control" id="inputZip" required="">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck" required="">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Sign up</button>
+</form>
+</div>
+ 
+
+</body>
+</html>
